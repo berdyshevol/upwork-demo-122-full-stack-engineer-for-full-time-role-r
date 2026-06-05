@@ -1,0 +1,8 @@
+{
+  "total": 8,
+  "passing": 8,
+  "spec_files": [
+    "tests/byok.spec.ts",
+    "tests/pipeline.spec.ts"
+  ]
+}

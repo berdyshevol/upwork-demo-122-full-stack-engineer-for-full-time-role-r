@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"sqlite3 data/upwork-bot.db \\\"UPDATE jobs SET status='prd_ready', error=NULL, updated_at=datetime('now') WHERE id=123\\\"; sqlite3 -header -column data/upwork-bot.db \\\"SELECT id, status, erro...",
+  "error": "Exit code 1\nError: unable to open database \"data/upwork-bot.db\": unable to open database file\nError: unable to open database \"data/upwork-bot.db\": unable to open database file",
+  "timestamp": "2026-06-05T20:41:37.691Z",
+  "retry_count": 1
+}
